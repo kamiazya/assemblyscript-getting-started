@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 <script type="module">
-import { add } from "./build/release.js";
-document.body.innerText = add(1, 2);
+import { hoge } from "./build/release.js";
+document.body.innerText = JSON.stringify(hoge());
+// add(1, 2);
 </script>
 </head>
 <body></body>
